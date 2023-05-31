@@ -14,27 +14,28 @@ import {
 
 function CustomBlockchain() {
   return (
-    <section className="CustomBlockchain mt-[172px] ">
-      <div className="px-[167px] xl:px-8 ">
+    <section className="CustomBlockchain mt-[172px] w-full ">
+      <div className="px-[162px] xl:px-8 ">
+
         <div className="flex ">
-          <div className="lg:w-full   lg:text-center">
+          <div className="lg:w-full  ">
             <h1 className="text-5xl font-bold uppercase sm:text-[35px]">
               Custom Blockchain Development Services
             </h1>
-            <p className="text-[25px] lg:w-full lg:text-center sm:text-[20px]">
+            <h3 className="text-[25px] lg:w-full  sm:text-[20px]">
               Expert Blockchain Development Services for Secure and
               Decentralized Blockchain Technology
-            </p>
-            <div className="mt-9">
+            </h3>
+            <div className="mt-9 lg:mt-16">
               <img src={certification} alt="" />
             </div>
           </div>
-          <div className="h-[352px] w-[481px] lg:hidden">
-            <img src={FramBox} alt="" />
+          <div className="  lg:hidden">
+            <img src={FramBox} alt="" className=""/>
           </div>
         </div>
 
-        <div className="flex flex-col items-center  ">
+        <div className="flex flex-col items-center mt-[86px] lg:mt-[72px]">
           <h3 className="text-base text-center">
             Our clients include 150 Global Brands, Silicon Valley Founders
           </h3>
@@ -51,7 +52,7 @@ function CustomBlockchain() {
             <img src={ocbc} alt="" />
             <img src={basaumuoi} alt="" />
           </div>
-          <div className=" hidden overflow-scroll w-full  md:block ">
+          <div className="hidden overflow-scroll w-full  md:!flex md:gap-2 lg:mt-12">
             <img src={aminsuarance} alt="" />
             <img src={uob} alt="" />
             <img src={IAG} alt="" />

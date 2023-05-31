@@ -1,47 +1,65 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @layer base {
-  h1{
+  h1 {
     font-size: 48px;
     font-weight: 700;
     text-transform: uppercase;
   }
-  h2{
-    font-size: 35px ;
+  h2 {
+    font-size: 35px;
     font-weight: 700;
   }
-  h3{
+  h3 {
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 400;
   }
-  h5{
+  h5 {
     font-size: 22px;
     font-weight: 700;
   }
-  h4{
+  h4 {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
   }
-  h6{
+  h6 {
     font-size: 24px;
     font-weight: 700;
   }
-  
-
 }
-
-
-@layer components{
-  .btn-white{
-    @layer w-[282px] h-[70px] bg-[#FFFFFF] text-[#FF1C03] mt-9 rounded-md text-[25px] font-bold;
-  }
-}
-
 @font-face {
-  font-family: Gotham;
-  src: url(../src/Gotham/SVN-Gotham\ Book.otf);
-  /* font-weight: 300; */
+  font-family: "Gotham";
+  src: url(../src/Gotham/font-Gotham/SVN-Gotham\ Thin.otf);
+  font-weight: 300;
 }
-/* src: url(./Gotham/SVN-Gotham\ Bold.otf); */
+@font-face {
+  font-family: "Gotham";
+  src: url(../src/Gotham/font-Gotham/SVN-Gotham\ Light.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gotham";
+  src: url(../src/Gotham/font-Gotham/SVN-Gotham\ Bold.otf);
+  font-weight: 700;
+}
 
+
+html {
+  font-family: "Gotham", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+body {
+  max-width: 1440px;
+  margin: auto;
+  /* position: relative; */
+}
+
+.my-pg-position {
+  background-size: cover;
+  background-position: center -100px;
+}
+
+/* src: url(./Gotham/SVN-Gotham\ Bold.otf); */

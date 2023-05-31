@@ -47,8 +47,6 @@ import Rectangle15 from "./OurBlockchainDevelopmentProcess/Rectangle15.png";
 // why we hire
 import cercleForHire from "./why-we-hire/cercleForHire.svg";
 // footer 
-import footerUp from "./Footer/footerUp.png";
-import footerDown from "./Footer/footerDown.png";
 import iconfacebook from "./logoBrand/facebook-f.svg";
 import icontwiter from "./logoBrand/twitter.svg"
 
@@ -97,8 +95,7 @@ export {
   // why we hire
   cercleForHire,
   // footer 
-  footerUp,
-  footerDown,
+ 
   iconfacebook,
   icontwiter,
   
