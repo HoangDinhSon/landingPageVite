@@ -34,10 +34,16 @@ import java from "./technology-we-use/java.svg";
 import javascript from "./technology-we-use/Javascript.svg";
 import nodejs from "./technology-we-use/nodejs.svg";
 import reactjs from "./technology-we-use/reactjs.svg";
-
+// approach 
 import publicEllipse from "./iconAproaches/public-Ellipse.svg";
 import publicVectorOne from "./iconAproaches/public-Vector1.svg";
 import publicVectorSecond from "./iconAproaches/public-Vector1-1.svg";
+import privateCircle from "./iconAproaches/private/private_circle.png"
+import privateClound from "./iconAproaches/private/private_clound.png";
+import privateLock from "./iconAproaches/private/private_lock.png";
+import hybridDown from "./iconAproaches/hyprid/hybridDown.png";
+import hybridUp from "./iconAproaches/hyprid/hybridUp.png";
+import hybridMidle from "./iconAproaches/hyprid/hybridMidle.png";
 
 //our blockchain develop process
 import Rectangle12 from "./OurBlockchainDevelopmentProcess/Rectangle12.png";
@@ -48,8 +54,7 @@ import Rectangle15 from "./OurBlockchainDevelopmentProcess/Rectangle15.png";
 import cercleForHire from "./why-we-hire/cercleForHire.svg";
 // footer 
 import iconfacebook from "./logoBrand/facebook-f.svg";
-import icontwiter from "./logoBrand/twitter.svg"
-
+import icontwiter from "./logoBrand/twitter.svg";
 export {
   loggoVinova,
   coolicon,
@@ -82,10 +87,16 @@ export {
   javascript,
   nodejs,
   reactjs,
-  // chưa xong
+  // chưa
   publicEllipse,
   publicVectorOne,
   publicVectorSecond,
+  privateCircle,
+  privateClound,
+  privateLock,
+  hybridDown,
+  hybridUp,
+  hybridMidle,
 
   //
   Rectangle12,

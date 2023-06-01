@@ -36,7 +36,7 @@ function OurBlockchainDevelopmentProcess() {
   return (
     <section className="OurBlockchainDevelopmentProcess px-[162px] xl:px-8 sm:pt-8">
       <div>
-        <h1 className="sm:text-[35px]">Our Blockchain Development Process</h1>
+        <h1 className="sm:text-[35px] max-w-[620px]">Our Blockchain Development Process</h1>
         {/* row 1  */}
         <ProcessDetail
           isVertical={true}

@@ -5,10 +5,10 @@ function Footer() {
     <div className="relative h-[821px] bg-[url('./assets/Footer/people.jpg')] bg-no-repeat my-pg-position text-white sm:h-[600px]">
       <div className="">
         {/* row 1  */}
-        <div className="absolute w-screen top-[15%] left-1/2 -translate-x-2/4 flex flex-col items-center">
+        <div className="absolute w-full top-[15%] left-1/2 -translate-x-2/4 flex flex-col items-center">
           <h2 className="uppercase text-center text-[35px]">Begin your journey with us</h2>
           <h3 className="text-center text-[20px]">We'd love to see how we can hely you </h3>
-          <button className="text-[25px] font-bold border-[2px] rounded-lg py-[4px] px-[15px] mt-6 sm:px-[10px] sm:py-[2px]">
+          <button className=" font-bold border-2 rounded-md py-[4px] px-[18px] mt-6 sm:px-[10px] sm:py-[2px]">
             GET IN TOUCH
           </button>
         </div>

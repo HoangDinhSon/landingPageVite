@@ -2,10 +2,19 @@ type props = {
   img: any;
   paragraph: any;
 };
+interface iconType{
+  publicEllipse:any
+  publicVectorOne: any
+  publicVectorSecond: any
+  privateClound: any
+  privateLock: any
+  hybridUp: any
+  hybridMidle: any
+  hybridDown: any
+};
 type PropsApproaches = {
-  icon: any;
-  icon1: any;
-  icon2: any;
+  ordinal:number,
+  icon: iconType;
   header: string;
   paragrap: string;
 };

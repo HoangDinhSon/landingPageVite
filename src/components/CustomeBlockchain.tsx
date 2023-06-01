@@ -14,15 +14,15 @@ import {
 
 function CustomBlockchain() {
   return (
-    <section className="CustomBlockchain mt-[172px] w-full ">
+    <section className="CustomBlockchain mt-[144px] w-full md:mt-[99px]">
       <div className="px-[162px] xl:px-8 ">
 
         <div className="flex ">
           <div className="lg:w-full  ">
-            <h1 className="text-5xl font-bold uppercase sm:text-[35px]">
+            <h1 className="sm:text-[35px]">
               Custom Blockchain Development Services
             </h1>
-            <h3 className="text-[25px] lg:w-full  sm:text-[20px]">
+            <h3 className="lg:w-full  sm:text-[20px]">
               Expert Blockchain Development Services for Secure and
               Decentralized Blockchain Technology
             </h3>

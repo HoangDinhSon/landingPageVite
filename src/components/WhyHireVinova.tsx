@@ -22,7 +22,7 @@ function WhyHireVinova() {
         <h1 className="text-center">
           Why Hire <span className="text-[#FF1C03]">vinova</span>?
         </h1>
-        <div className="grid grid-cols-3 gap-y-[31px] gap-x-[51px] mt-[79px] sm:block sm:mt-8 ">
+        <div className="grid grid-cols-3 gap-y-[31px] gap-x-[51px] mt-[79px] sm:flex sm:mt-8 sm:flex-col sm:items-center sm:gap-y-0 ">
           <ItemReasonHire
             head="We Match Your Needs"
             pragraph="By partnering with Capital Numbers, you'll get access to our 700+ in-house developers and will be able to fill any role immediately."

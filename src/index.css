@@ -28,38 +28,47 @@
     font-size: 24px;
     font-weight: 700;
   }
-}
-@font-face {
-  font-family: "Gotham";
-  src: url(../src/Gotham/font-Gotham/SVN-Gotham\ Thin.otf);
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Gotham";
-  src: url(../src/Gotham/font-Gotham/SVN-Gotham\ Light.ttf);
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Gotham";
-  src: url(../src/Gotham/font-Gotham/SVN-Gotham\ Bold.otf);
-  font-weight: 700;
+  html {
+    font-family: "Gotham", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+  }
+  
+  body {
+    max-width: 1440px;
+    min-width: 375px;
+    margin: auto;
+  }
+  @font-face {
+    font-family: "Gotham";
+    src: url(../src/Gotham/font-Gotham/SVN-Gotham\ Thin.otf);
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: "Gotham";
+    src: url(../src/Gotham/font-Gotham/SVN-Gotham\ Light.ttf);
+    font-weight: 400;
+  }
+  @font-face {
+    font-family: "Gotham";
+    src: url(../src/Gotham/font-Gotham/SVN-Gotham\ Bold.otf);
+    font-weight: 700;
+  }
 }
 
 
-html {
-  font-family: "Gotham", Arial, Helvetica, sans-serif;
-  font-weight: 300;
-}
 
-body {
-  max-width: 1440px;
-  margin: auto;
-  /* position: relative; */
-}
 
 .my-pg-position {
+  background-image: url(./assets/Footer/people.jpg);
+  background-color: rgba(255, 0, 0, 0.5);
   background-size: cover;
-  background-position: center -100px;
+  background-blend-mode: color-dodge;
+  background-position: bottom 134px right 50%;
+  
+}
+@media screen and (max-width :375px){
+  .my-pg-position{
+  background-position: bottom 102px right 50%;
+}
 }
 
-/* src: url(./Gotham/SVN-Gotham\ Bold.otf); */
