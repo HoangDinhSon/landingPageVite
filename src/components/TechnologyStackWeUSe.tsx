@@ -29,7 +29,7 @@ function TechnologyStackWeUSe() {
     );
   };
   return (
-    <section className="TechnologyStackWeUSe mt-[69px] w-full px-[162px] sm:px-8 ">
+    <section className="TechnologyStackWeUSe mt-[69px] w-full px-[162px] md:px-8 ">
       <div className="text-center">
         <h1 className="sm:text-[30px]">Technology Stack We Use</h1>
         <h3 className="max-w-[923px] mx-auto sm:text-xl font-light">

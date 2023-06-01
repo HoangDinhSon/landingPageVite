@@ -122,7 +122,7 @@ function Approachestoblockchain() {
           before we get things rolling for you. Here are the Blockchain
           approaches we think can transform your business.
         </h3>
-        <div className="flex gap-[45px] mt-[47px] sm:block">
+        <div className="flex gap-[45px] mt-[47px] md:block">
           <DetailBlockChain
             ordinal={1}
             icon={icon}

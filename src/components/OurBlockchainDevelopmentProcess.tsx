@@ -19,16 +19,14 @@ function OurBlockchainDevelopmentProcess() {
       ? "max-w-[674px] text-justify text-[18px] font-normal relative after:block after:absolute after:bg-[#FF1C03] after:h-[59px] after:w-[1px] whitespace-pre-line sm:after:hidden sm:text-left"
       : "max-w-[674px] text-justify text-[18px] font-normal sm:text-left";
     return (
-      <div className="flex justify-between pt-[60px] sm:pt-8">
-        <div>
-          <h6>
-            <span className="text-[#FF1C03]">{number}</span>
-            {header}
-          </h6>
+      <div className=" pt-[60px] sm:pt-8">
+        <h6>
+          <span className="text-[#FF1C03]">{number}</span>
+          {header}
+        </h6>
+        <div className="flex justify-between  ">
           <p className={myClassName}>{para}</p>
-        </div>
-        <div className="sm:hidden">
-          <img src={imgSrc} alt="" />
+          <img src={imgSrc} alt="" className="md:max-w-[262px] ml-2 sm:hidden" />
         </div>
       </div>
     );
@@ -36,7 +34,9 @@ function OurBlockchainDevelopmentProcess() {
   return (
     <section className="OurBlockchainDevelopmentProcess px-[162px] xl:px-8 sm:pt-8">
       <div>
-        <h1 className="sm:text-[35px] max-w-[620px]">Our Blockchain Development Process</h1>
+        <h1 className="sm:text-[35px] max-w-[620px]">
+          Our Blockchain Development Process
+        </h1>
         {/* row 1  */}
         <ProcessDetail
           isVertical={true}
