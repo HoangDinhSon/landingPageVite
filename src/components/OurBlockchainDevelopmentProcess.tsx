@@ -15,6 +15,7 @@ function OurBlockchainDevelopmentProcess() {
     number,
     isVertical,
   }: propsProcesDetail) => {
+    // có is there pesudo ::after 
     const myClassName = isVertical
       ? "max-w-[674px] text-justify text-[18px] font-normal relative after:block after:absolute after:bg-[#FF1C03] after:h-[59px] after:w-[1px] whitespace-pre-line sm:after:hidden sm:text-left"
       : "max-w-[674px] text-justify text-[18px] font-normal sm:text-left";
@@ -26,7 +27,7 @@ function OurBlockchainDevelopmentProcess() {
         </h6>
         <div className="flex justify-between  ">
           <p className={myClassName}>{para}</p>
-          <img src={imgSrc} alt="" className="md:max-w-[262px] ml-2 sm:hidden" />
+          <img src={imgSrc} alt="" className="md:max-w-[262px] ml-2 sm:hidden max-w-[300px] object-cover" width={"1000px"} height={"1000px"}  />
         </div>
       </div>
     );
@@ -34,7 +35,7 @@ function OurBlockchainDevelopmentProcess() {
   return (
     <section className="OurBlockchainDevelopmentProcess px-[162px] xl:px-8 sm:pt-8">
       <div>
-        <h1 className="sm:text-[35px] max-w-[620px]">
+        <h1 className="max-w-[620px]">
           Our Blockchain Development Process
         </h1>
         {/* row 1  */}

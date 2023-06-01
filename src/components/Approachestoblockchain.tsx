@@ -113,7 +113,7 @@ function Approachestoblockchain() {
   return (
     <section className=" mt-[161px] bg-[#FAFAFA] pt-[84px] sm:mt-9 sm:pt-[57px]">
       <div className="flex flex-col items-center">
-        <h1 className="sm:text-[35px] sm:text-center">
+        <h1 className=" sm:text-center">
           Approaches to Blockchain
         </h1>
         <h3 className="max-w-[1103px] text-center sm:text-xl sm:text-center sm:mt-8">

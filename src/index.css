@@ -2,41 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  --myFontHeader:35px;
+}
 @layer base {
   h1 {
-    font-size: 48px;
-    font-weight: 700;
-    text-transform: uppercase;
+    @apply text-5xl font-bold uppercase  md:text-[length:var(--myFontHeader)];
   }
   h2 {
-    font-size: 35px;
-    font-weight: 700;
+    @apply text-[35px] font-bold;
   }
   h3 {
-    font-size: 25px;
-    font-weight: 400;
+    @apply text-[25px] font-normal;
   }
   h5 {
-    font-size: 22px;
-    font-weight: 700;
+    @apply text-[22px] font-bold;
   }
   h4 {
-    font-size: 20px;
-    font-weight: 400;
+    @apply text-xl font-normal;
   }
   h6 {
-    font-size: 24px;
-    font-weight: 700;
+    @apply text-2xl font-bold;
   }
   html {
-    font-family: "Gotham", Arial, Helvetica, sans-serif;
-    font-weight: 300;
+    @apply font-sans font-light;
   }
-  
+
   body {
-    max-width: 1440px;
-    min-width: 375px;
-    margin: auto;
+    @apply max-w-[1440px] min-w-[375px] mx-auto;
   }
   @font-face {
     font-family: "Gotham";
@@ -54,21 +47,21 @@
     font-weight: 700;
   }
 }
-
-
-
-
-.my-pg-position {
-  background-image: url(./assets/Footer/people.jpg);
-  background-color: rgba(255, 0, 0, 0.5);
-  background-size: cover;
-  background-blend-mode: color-dodge;
-  background-position: bottom 134px right 50%;
-  
-}
-@media screen and (max-width :375px){
-  .my-pg-position{
-  background-position: bottom 102px right 50%;
-}
+/* component  */
+@layer components {
+  .btn-white {
+    @apply text-[#ffff00] bg-[#000] sm:text-white;
+  }
+  .my-pg-position {
+    @apply bg-[url('./assets/Footer/people.jpg')] bg-blend-color-dodge;
+    background-color: rgba(255, 0, 0, 0.4);
+    background-size: cover;
+    background-position: bottom 134px right 50%;
+  }
 }
 
+@media screen and (max-width: 375px) {
+  .my-pg-position {
+    background-position: bottom 102px right 50%;
+  }
+}

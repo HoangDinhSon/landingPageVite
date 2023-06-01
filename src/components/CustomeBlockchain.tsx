@@ -19,7 +19,7 @@ function CustomBlockchain() {
 
         <div className="flex ">
           <div className="lg:w-full  ">
-            <h1 className="sm:text-[35px]">
+            <h1>
               Custom Blockchain Development Services
             </h1>
             <h3 className="lg:w-full  sm:text-[20px]">
