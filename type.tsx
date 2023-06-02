@@ -1,7 +1,4 @@
-type props = {
-  img: any;
-  paragraph: any;
-};
+
 interface iconType{
   publicEllipse:any
   publicVectorOne: any
@@ -19,4 +16,4 @@ type PropsApproaches = {
   paragrap: string;
 };
 
-export type { props, PropsApproaches ,};
+export type {  PropsApproaches ,};

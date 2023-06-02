@@ -8,9 +8,7 @@ function WhyHireVinova() {
   const ItemReasonHire = ({ head, pragraph }: PropsForWhyWeHire) => {
     return (
       <div className="flex flex-col items-center  text-center max-w-[317px] sm:mt-8 sm:first:mt-0">
-        <div className="">
-          <img src={cercleForHire} alt="" />
-        </div>
+        <img src={cercleForHire} alt="" className="w-[84px] h-[84px]" />
         <h6 className="mt-[26px]">{head}</h6>
         <p>{pragraph}</p>
       </div>
