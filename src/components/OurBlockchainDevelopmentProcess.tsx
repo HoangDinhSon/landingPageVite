@@ -27,13 +27,13 @@ function OurBlockchainDevelopmentProcess() {
         </h6>
         <div className="flex justify-between  ">
           <p className={myClassName}>{para}</p>
-          <img src={imgSrc} alt="" className="md:max-w-[262px] ml-2 sm:hidden max-w-[300px] object-cover" width={"1000px"} height={"1000px"}  />
+          <img src={imgSrc} alt="" className="md:max-w-[262px] ml-2 sm:hidden max-w-[300px] h-[222px] object-cover" width={"1000px"} height={"1000px"}  />
         </div>
       </div>
     );
   };
   return (
-    <section className="OurBlockchainDevelopmentProcess px-[162px] xl:px-8 sm:pt-8">
+    <section className="OurBlockchainDevelopmentProcess mt-[77px] px-[162px] xl:px-8 sm:pt-8 bgWhenScreenThan1441px">
       <div>
         <h1 className="max-w-[620px]">
           Our Blockchain Development Process

@@ -25,11 +25,11 @@
     @apply text-2xl font-bold;
   }
   html {
-    @apply font-sans font-light;
+    @apply font-sans font-light ;
   }
 
   body {
-    @apply max-w-[1440px] min-w-[375px] mx-auto;
+    @apply  min-w-[375px] ;
   }
   @font-face {
     font-family: "Gotham";
@@ -58,10 +58,18 @@
     background-size: cover;
     background-position: bottom 134px right 50%;
   }
+  .bgWhenScreenThan1441px {
+    @apply min2xl:!px-[calc((100%-1440px)/2)]
+  }
 }
 
 @media screen and (max-width: 375px) {
   .my-pg-position {
     background-position: bottom 102px right 50%;
+  }
+}
+@media screen and (min-width:1441px){
+  .my-pg-position {
+    background-position: bottom -10px right 50%;
   }
 }

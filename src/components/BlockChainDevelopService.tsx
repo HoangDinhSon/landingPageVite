@@ -73,7 +73,7 @@ function BlockChainDevelopService() {
     );
   };
   return (
-    <section className="BlockChainDevelopService mt-[136px] md:mt-8">
+    <section className="BlockChainDevelopService mt-[136px] md:mt-8 bgWhenScreenThan1441px">
       <div className="px-[162px] lg:px-8">
         <h1 className="md:text-[35px]">Blockchain Development Services</h1>
         <h3 className="max-w-[936px] mb-8 md:text-xl md:mt-[29px] md:pb-[17px] ">

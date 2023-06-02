@@ -14,7 +14,7 @@ import {
 
 function CustomBlockchain() {
   return (
-    <section className="CustomBlockchain mt-[144px] w-full md:mt-[99px]">
+    <section className="CustomBlockchain mt-[144px] w-full md:mt-[99px] bgWhenScreenThan1441px">
       <div className="px-[162px] xl:px-8 ">
 
         <div className="flex ">

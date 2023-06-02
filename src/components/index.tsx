@@ -1,7 +1,7 @@
 import Header from "./Header";
 import CustomBlockchain from "./CustomeBlockchain";
 import BlockChainDevelopService from "./BlockChainDevelopService";
-import ProjectFelivery from "./ProjectDelivery";
+import ProjectDelivery from "./ProjectDelivery";
 import TechnologyStackWeUSe from "./TechnologyStackWeUSe";
 import Approachestoblockchain from "./Approachestoblockchain";
 import OurBlockchainDevelopmentProcess from "./OurBlockchainDevelopmentProcess";
@@ -12,7 +12,7 @@ export {
   Header,
   CustomBlockchain,
   BlockChainDevelopService,
-  ProjectFelivery,
+  ProjectDelivery,
   TechnologyStackWeUSe,
   Approachestoblockchain,
   OurBlockchainDevelopmentProcess,

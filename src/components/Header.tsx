@@ -2,7 +2,8 @@ import {loggoVinova,coolicon} from "../assets";
 
 function Header() {
   return (
-    <header className="Header sticky z-10 top-0 w-full px-[162px]  border-b-2  xl:px-8 bg-[#FAFAFA]">
+    
+    <header className="Header sticky z-10 top-0 w-full px-[162px]  border-b-2  xl:px-8 bg-[#FAFAFA] bgWhenScreenThan1441px ">
       <div className="wrap  h-[52px] text-[14px] flex justify-between  items-center ">
         <div className="logo">
           <img src={loggoVinova} alt="" />

@@ -17,7 +17,7 @@ function WhyHireVinova() {
     );
   };
   return (
-    <section className="WhyHireVinova  mt-[128px] bg-[#FAFAFA] py-[128px] px-[162px] lg:px-8 sm:px-8 sm:mt-8 sm:py-8">
+    <section className="WhyHireVinova  mt-[128px] bg-[#FAFAFA] py-[128px] px-[162px] lg:px-8 sm:px-8 sm:mt-8 sm:py-8 bgWhenScreenThan1441px">
       <div className="">
         <h1 className="text-center">
           Why Hire <span className="text-[#FF1C03]">vinova</span>?

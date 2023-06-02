@@ -2,7 +2,7 @@ import {
   Header,
   CustomBlockchain,
   BlockChainDevelopService,
-  ProjectFelivery,
+  ProjectDelivery,
   TechnologyStackWeUSe,
   Approachestoblockchain,
   OurBlockchainDevelopmentProcess,
@@ -16,7 +16,7 @@ function App() {
       <Header />
       <CustomBlockchain />
       <BlockChainDevelopService />
-      <ProjectFelivery />
+      <ProjectDelivery />
       <TechnologyStackWeUSe />
       <Approachestoblockchain />
       <OurBlockchainDevelopmentProcess/>
