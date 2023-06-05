@@ -15,5 +15,10 @@ type PropsApproaches = {
   header: string;
   paragrap: string;
 };
+type propsForTechnology ={
+  img:string;
+  paragraph :string;
+  myclass?: string;
+}
 
-export type {  PropsApproaches ,};
+export type {  PropsApproaches ,propsForTechnology};

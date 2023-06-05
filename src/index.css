@@ -7,19 +7,19 @@
 }
 @layer base {
   h1 {
-    @apply text-5xl font-bold uppercase  md:text-[length:var(--myFontHeader)];
+    @apply text-5xl font-bold uppercase  md:text-[length:var(--myFontHeader)] leading-[125%];
   }
   h2 {
-    @apply text-[35px] font-bold;
+    @apply text-[35px] font-bold leading-[150%];
   }
   h3 {
-    @apply text-[25px] font-normal;
+    @apply text-[25px] font-normal leading-[150%];
   }
   h5 {
     @apply text-[22px] font-bold;
   }
   h4 {
-    @apply text-xl font-normal;
+    @apply text-[20px] font-normal leading-[30px] mt-3;
   }
   h6 {
     @apply text-2xl font-bold;
@@ -73,3 +73,6 @@
     background-position: bottom -10px right 50%;
   }
 }
+/* *{
+  outline: 1px solid green;
+} */
