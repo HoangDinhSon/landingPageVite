@@ -24,6 +24,9 @@
   h6 {
     @apply text-2xl font-bold;
   }
+  li{
+    @apply hover:text-[red] cursor-pointer
+  }
   html {
     @apply font-sans font-light ;
   }
@@ -56,7 +59,7 @@
     @apply bg-[url('./assets/Footer/people.jpg')] bg-blend-color-dodge;
     background-color: rgba(255, 0, 0, 0.4);
     background-size: cover;
-    background-position: bottom 134px right 50%;
+    background-position: bottom 234px right 50%;
   }
   .bgWhenScreenThan1441px {
     @apply min2xl:!px-[calc((100%-1440px)/2)]
@@ -73,6 +76,18 @@
     background-position: bottom -10px right 50%;
   }
 }
+@media screen and (max-width:640px) {
+  .my-pg-position {
+    background-position: bottom 200px right 50%;
+  }
+}
+@media screen and (max-width:375px) {
+  .my-pg-position {
+    background-position: bottom 80px right 50%;
+  }
+}
+
+
 /* *{
   outline: 1px solid green;
 } */

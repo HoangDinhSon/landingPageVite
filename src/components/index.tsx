@@ -7,6 +7,7 @@ import Approachestoblockchain from "./Approachestoblockchain";
 import OurBlockchainDevelopmentProcess from "./OurBlockchainDevelopmentProcess";
 import WhyHireVinova from "./WhyHireVinova";
 import Footer from "./Footer";
+import Under from "./Under";
 
 export {
   Header,
@@ -18,4 +19,5 @@ export {
   OurBlockchainDevelopmentProcess,
   WhyHireVinova,
   Footer,
+  Under,
 };

@@ -6,7 +6,7 @@ function ProjectDelivery() {
         <h3 className="leading-[38px] sm:text-[20px] font-light">
           Our highly experienced team have delivered ....
         </h3>
-        <button className=" w-[282px] h-[70px] bg-[#FFFFFF] text-[#FF1C03] mt-9 rounded-md text-[25px] font-bold sm:text-xl sm:w-[260px] sm:h-[65px]">
+        <button className=" w-[282px] h-[70px] bg-[#FFFFFF] text-[#FF1C03] mt-9 rounded-md text-[25px] font-bold hover:bg-[#FF1C03] hover:text-[white] hover:outline-2 hover:outline-[white] outline  sm:text-xl  sm:w-[260px] sm:h-[65px]">
           Get in Touch
         </button>
       </div>

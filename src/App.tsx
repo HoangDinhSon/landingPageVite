@@ -7,7 +7,7 @@ import {
   Approachestoblockchain,
   OurBlockchainDevelopmentProcess,
   WhyHireVinova,
-  Footer
+  Footer,
 } from "./components";
 
 function App() {
