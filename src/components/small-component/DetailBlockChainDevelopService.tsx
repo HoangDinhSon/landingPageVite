@@ -16,11 +16,8 @@ function DetailBlockchainService(props: any) {
       setIsDisPlay(!isDisplay);
     };
     return (
-      <div className="max-w-[550px] select-none ">
-        <h4
-          className="leading-8  md:text-[18px] cursor-pointer"
-          onClick={toggleDisplay}
-        >
+      <div className="max-w-[550px] select-none my_transition">
+        <h4 className="leading-8  md:text-[18px] cursor-pointer " onClick={toggleDisplay}>
           {isDisplay ? (
             <FontAwesomeIcon icon={faXmark} className="text-[#666666] mr-4" />
           ) : (
@@ -38,7 +35,7 @@ function DetailBlockchainService(props: any) {
   };
 
   return (
-    <div className="flex  pt-[30px] md:block md:pt-[17px] group ">
+    <div className="flex  pt-[30px] md:block md:pt-[17px] group">
       <h2 className="max-w-[340px] md:text-[28px]">{leftParagrap}</h2>
       <div>
         {lisDetail.map((element: any) => {

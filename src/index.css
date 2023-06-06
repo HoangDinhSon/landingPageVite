@@ -76,3 +76,10 @@
 /* *{
   outline: 1px solid green;
 } */
+.mysvgNav{
+  filter: invert(4%) sepia(87%) saturate(64%) hue-rotate(316deg) brightness(98%) contrast(87%);
+}
+.my_transition{
+  transition-property: height;
+  transition-duration: 5s;
+}

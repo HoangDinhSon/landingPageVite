@@ -2,7 +2,7 @@ import { iconfacebook, icontwiter } from "../assets";
 
 function Footer() {
   return (
-    <div className="relative h-[821px] bg-[url('./assets/Footer/people.jpg')] bg-no-repeat my-pg-position text-white sm:h-[600px] ">
+    <div id="contact" className="relative h-[821px] bg-[url('./assets/Footer/people.jpg')] bg-no-repeat my-pg-position text-white sm:h-[600px] ">
     
         {/* row 1  */}
         <div className="absolute w-full top-[15%] left-1/2 -translate-x-2/4 flex flex-col items-center ">
@@ -17,7 +17,7 @@ function Footer() {
           </button>
         </div>
         {/* row 2  */}
-        <div className="bg-[#E21A22]  absolute bottom-[38px] left-0 pl-[70%] w-full sm:pl-0 sm:flex sm:flex-col sm:items-center sm:text-xs  ">
+        <div className="bg-[#E21A22] pb-1  absolute bottom-[38px] left-0 pl-[70%] w-full sm:pl-0 sm:flex sm:flex-col sm:items-center sm:text-xs  ">
           <p className="font-bold">Visit us </p>
           <p>28 Sin Ming Lane #03-137,</p>
           <p>Midview City,</p>

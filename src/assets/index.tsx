@@ -1,6 +1,7 @@
-// header 
+// header
 import loggoVinova from "./Header/logoVinova.svg";
-import coolicon from "./Header/coolicon.svg"
+import coolicon from "./Header/coolicon.svg";
+import xmarkSolid from "./Header/xmarkSolid.svg";
 
 //
 import basaumuoi from "./custom-Blockchain/logo-cusomer/360f.svg";
@@ -34,11 +35,11 @@ import java from "./technology-we-use/java.svg";
 import javascript from "./technology-we-use/Javascript.svg";
 import nodejs from "./technology-we-use/nodejs.svg";
 import reactjs from "./technology-we-use/reactjs.svg";
-// approach 
+// approach
 import publicEllipse from "./iconAproaches/public-Ellipse.svg";
 import publicVectorOne from "./iconAproaches/public-Vector1.svg";
 import publicVectorSecond from "./iconAproaches/public-Vector1-1.svg";
-import privateCircle from "./iconAproaches/private/private_circle.png"
+import privateCircle from "./iconAproaches/private/private_circle.png";
 import privateClound from "./iconAproaches/private/private_clound.png";
 import privateLock from "./iconAproaches/private/private_lock.png";
 import hybridDown from "./iconAproaches/hyprid/hybridDown.png";
@@ -52,12 +53,13 @@ import Rectangle14 from "./OurBlockchainDevelopmentProcess/Rectangle14.png";
 import Rectangle15 from "./OurBlockchainDevelopmentProcess/Rectangle15.png";
 // why we hire
 import cercleForHire from "./why-we-hire/cercleForHire.svg";
-// footer 
+// footer
 import iconfacebook from "./logoBrand/facebook-f.svg";
 import icontwiter from "./logoBrand/twitter.svg";
 export {
   loggoVinova,
   coolicon,
+  xmarkSolid,
   //
   basaumuoi,
   aminsuarance,
@@ -105,9 +107,7 @@ export {
   Rectangle15,
   // why we hire
   cercleForHire,
-  // footer 
- 
+  // footer
   iconfacebook,
   icontwiter,
-  
 };
