@@ -131,7 +131,7 @@ const dummyDataFoHeaderDeskhop = [
     },
     {
         href: '#contact',
-        className: 'text-[#E21A22]',
+        className: 'myRed',
         content: 'BLOCKCHAIN',
     },
     {
@@ -155,7 +155,7 @@ const dummyDataFoHeaderDeskhop = [
     {
         href: '#contact',
 
-        className: 'text-red-600 bg-[green]',
+        className: '',
 
         content: 'TESTIMONIALS',
     },
