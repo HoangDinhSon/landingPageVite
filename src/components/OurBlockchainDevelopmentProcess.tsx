@@ -7,6 +7,36 @@ type propsProcesDetail = {
     number: string;
     isVertical: boolean;
 };
+const DummyDataForOurBlockChainDevelopmen = [
+    {
+        isVertical: true,
+        imgSrc: Rectangle12,
+        number: '01',
+        header: ' Discovery Stage',
+        para: ' We look at your project requirements at this stage. We try to geta sense of what blockchain solutions you need. Each blockchain network (public, private, and hybrid) has distinct pluses and minuses. \n \nSo, we decide which one will best drive your goals. Inshort, we gather all requirements at this stage and form an initial workflow based on that',
+    },
+    {
+        isVertical: true,
+        imgSrc: Rectangle13,
+        number: '02',
+        header: ' Product Feasibility Study',
+        para: 'Next, we do a theoretical build-up of your blockchain app or website, outlining the architecture, frameworks, consensus mechanism, tech stacks, mockups, designs, and feasibility. \n \n Once our stakeholders approve the prototype and our Proof-of-Concept (POC), we proceed with the development work.',
+    },
+    {
+        isVertical: true,
+        imgSrc: Rectangle14,
+        number: '03',
+        header: ' Product Development',
+        para: ' At this point, we focus on the blockchain platforms, programming languages, UI/UX, databases, APIs, and the middleware that connects the external systems with the blockchain.\n \nOur developers test and release an alpha version to spot issues. Once we fix all gaps and find the product doing well in the market, we add more complex features down the road.',
+    },
+    {
+        isVertical: false,
+        imgSrc: Rectangle15,
+        number: '04',
+        header: ' Support and Maintenance',
+        para: 'Our job doesn&#180;t end with just the product launch. We offer post-launch support too. We closely monitor the transactions executed in blockchain and keep a regular watch to remove bugs/glitches (if any). \n\nWe even handle feature upgrades from time to time to ensure your product is always up to date and functions flawlessly throughout its lifetime.',
+    },
+];
 function OurBlockchainDevelopmentProcess() {
     const ProcessDetail = ({ imgSrc, para, header, number, isVertical }: propsProcesDetail) => {
         // có is there pesudo ::after
@@ -38,43 +68,19 @@ function OurBlockchainDevelopmentProcess() {
         <section className="OurBlockchainDevelopmentProcess mt-[77px] px-[162px] xl:px-8 sm:pt-8 bgWhenScreenThan1441px">
             <div className="">
                 <h1 className="max-w-[620px] mb-[76px]">Our Blockchain Development Process</h1>
-                {/* row 1  */}
-                <ProcessDetail
-                    isVertical={true}
-                    imgSrc={Rectangle12}
-                    number="01"
-                    header=" Discovery Stage"
-                    para=" We look at your project requirements at this stage. We try to geta sense of what blockchain solutions you need. Each blockchain network (public, private, and hybrid) has distinct pluses and minuses. 
-              
-          So, we decide which one will best drive your goals. Inshort, we gather all requirements at this stage and form an initial workflow based on that"
-                />
-                <ProcessDetail
-                    isVertical={true}
-                    imgSrc={Rectangle13}
-                    number="02"
-                    header="Product Feasibility Study"
-                    para="Next, we do a theoretical build-up of your blockchain app or website, outlining the architecture, frameworks, consensus mechanism, tech stacks, mockups, designs, and feasibility.
-
-          Once our stakeholders approve the prototype and our Proof-of-Concept (POC), we proceed with the development work."
-                />
-                <ProcessDetail
-                    isVertical={true}
-                    imgSrc={Rectangle14}
-                    number="03"
-                    header=" Product Development"
-                    para=" At this point, we focus on the blockchain platforms, programming languages, UI/UX, databases, APIs, and the middleware that connects the external systems with the blockchain.
-          
-          Our developers test and release an alpha version to spot issues. Once we fix all gaps and find the product doing well in the market, we add more complex features down the road."
-                />
-                <ProcessDetail
-                    isVertical={false}
-                    imgSrc={Rectangle15}
-                    number="04"
-                    header=" Support and Maintenance"
-                    para="Our job doesn&#180;t end with just the product launch. We offer post-launch support too. We closely monitor the transactions executed in blockchain and keep a regular watch to remove bugs/glitches (if any). 
-          
-          We even handle feature upgrades from time to time to ensure your product is always up to date and functions flawlessly throughout its lifetime."
-                />
+                {DummyDataForOurBlockChainDevelopmen.map((ele) => {
+                    return (
+                        <div key={ele.header}>
+                            <ProcessDetail
+                                isVertical={ele.isVertical}
+                                imgSrc={ele.imgSrc}
+                                number={ele.number}
+                                header={ele.header}
+                                para={ele.para}
+                            />
+                        </div>
+                    );
+                })}
             </div>
         </section>
     );

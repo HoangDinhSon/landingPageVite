@@ -13,13 +13,13 @@ function Approachestoblockchain() {
                 <div className="flex gap-[45px] mt-[47px] md:block">
                     {dumyDataForApproachtoblockchain.map((element) => {
                         return (
-                            <>
+                            <div key={element.header} className='sm:first:pt-0 sm:pt-[81px]'>
                                 <DetailBlockChain
                                     icon={element.icon}
                                     header={element.header}
                                     paragrap={element.paragrap}
                                 />
-                            </>
+                            </div>
                         );
                     })}
                 </div>

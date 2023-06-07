@@ -13,7 +13,7 @@ function DetailBlockChain({ icon, header, paragrap }: PropsApproaches) {
     );
   };
   return (
-    <div className="flex flex-col items-center max-w-[343px] gap-[21px] sm:first:mt-0 sm:mt-[81px] ">
+    <div className="flex flex-col items-center max-w-[343px] gap-[21px]  ">
       <IconDetail icon={icon} />
       <h5 className="">{header}</h5>
       <p className="text-justify text-[18px]">{paragrap}</p>

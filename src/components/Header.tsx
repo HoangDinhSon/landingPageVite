@@ -2,6 +2,8 @@ import { useState } from 'react';
 import { loggoVinova, coolicon, xmarkSolid } from '../assets/icons';
 import { NavForMobile } from './small-component';
 import { dummyDataFoHeaderDeskhop } from '../../dummy_data';
+// import clsx from "clsx";
+const colVariants = {blue : "text-[blue]"};
 function Header() {
     const [isOpenNavBarForMobile, setIsOpenNavbarForMobile] = useState(false);
     const handleToggle = () => {
@@ -15,17 +17,15 @@ function Header() {
                         <img src={loggoVinova} alt="" />
                     </a>
                 </div>
-                <div className="nav xl:hidden mr-9">
-                    <ul className="flex gap-[21px] font-normal">
-                        {dummyDataFoHeaderDeskhop.map((element) => {
-                            return (
-                                <li className={element.className}>
-                                    <a href={element.href}>{element.content}</a>
-                                </li>
-                            );
-                        })}
-                    </ul>
-                </div>
+                <ul className=" nav xl:hidden mr-9 flex gap-[21px] font-normal group">
+                    {dummyDataFoHeaderDeskhop.map((element) => {
+                        return (
+                            <li  key={element.content} className={element.className}>
+                                <a href={element.href}>{element.content} </a>
+                            </li>
+                        );
+                    })}
+                </ul>
                 {/* Mobile:  open/close Nav bar for mobile  */}
                 {!isOpenNavBarForMobile && (
                     <div className="xl:!block hidden" onClick={handleToggle}>

@@ -7,7 +7,7 @@ function NavForMobile(props: any) {
       <ul className="flex flex-col gap-2  text-white  text-[20px] text-center font-medium  ">
         {dummyDataFoHeaderDeskhop.map((element) => {
           return (
-            <li className={element.className} onClick={handleToggle}>
+            <li className={element.className} onClick={handleToggle} key={element.content}>
               <a href={element.href}>{element.content}</a>
             </li>
           );
