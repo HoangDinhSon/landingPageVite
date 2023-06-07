@@ -2,6 +2,9 @@
 import loggoVinova from "./Header/logoVinova.svg";
 import coolicon from "./Header/coolicon.svg";
 import xmarkSolid from "./Header/xmarkSolid.svg";
+//customblock chain
+import certification from "./custom-Blockchain/certification.svg";
+import FrameBox from "./custom-Blockchain/FrameBox.svg";
 
 //
 import basaumuoi from "./custom-Blockchain/logo-cusomer/360f.svg";
@@ -36,15 +39,10 @@ import javascript from "./technology-we-use/Javascript.svg";
 import nodejs from "./technology-we-use/nodejs.svg";
 import reactjs from "./technology-we-use/reactjs.svg";
 // approach
-import publicEllipse from "./iconAproaches/public-Ellipse.svg";
-import publicVectorOne from "./iconAproaches/public-Vector1.svg";
-import publicVectorSecond from "./iconAproaches/public-Vector1-1.svg";
-import privateCircle from "./iconAproaches/private/private_circle.png";
-import privateClound from "./iconAproaches/private/private_clound.png";
-import privateLock from "./iconAproaches/private/private_lock.png";
-import hybridDown from "./iconAproaches/hyprid/hybridDown.png";
-import hybridUp from "./iconAproaches/hyprid/hybridUp.png";
-import hybridMidle from "./iconAproaches/hyprid/hybridMidle.png";
+
+import hybridApproach from "./iconAproaches/hybridapproach.png";
+import privateAproach from "./iconAproaches/privateAproach.png";
+import publicApproach from "./iconAproaches/publicApproach.png";
 
 //our blockchain develop process
 import Rectangle12 from "./OurBlockchainDevelopmentProcess/Rectangle12.png";
@@ -60,6 +58,10 @@ export {
   loggoVinova,
   coolicon,
   xmarkSolid,
+  //customblockchain
+  certification,
+  FrameBox,
+
   //
   basaumuoi,
   aminsuarance,
@@ -89,17 +91,10 @@ export {
   javascript,
   nodejs,
   reactjs,
-  // chưa
-  publicEllipse,
-  publicVectorOne,
-  publicVectorSecond,
-  privateCircle,
-  privateClound,
-  privateLock,
-  hybridDown,
-  hybridUp,
-  hybridMidle,
-
+  // chưa approach
+  hybridApproach,
+  privateAproach,
+  publicApproach,
   //
   Rectangle12,
   Rectangle13,

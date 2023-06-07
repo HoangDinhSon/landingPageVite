@@ -94,4 +94,76 @@ const DataForBlockChainDevelopService = [
       ],
     },
   ];
-  export {DataForBlockChainDevelopService}
+  /***DATA FOR COMPOENENT APPROACHES_TO_BLOCKCHAIN*****/
+  import  {
+    hybridApproach,
+    publicApproach,
+    privateAproach
+  } from "./src/assets/icons";
+  const dumyDataForApproachtoblockchain = [
+    {
+    
+      icon: publicApproach,
+      header: "Public",
+      paragrap:
+        "Permission-less and non-restrictive, public blockchains work best when maintaining large user bases where any member of the shared network can verify records, do proof-of-work, or engage in mining.",
+    },
+    {
+     
+      icon: privateAproach,
+      header: "Private",
+      paragrap:
+        "Permission-less and non-restrictive, public blockchains work best when maintaining large user bases where any member of the shared network can verify records, do proof-of-work, or engage in mining.",
+    },
+    {
+      icon: hybridApproach,
+      header: "Hybrid",
+      paragrap:
+        "Permission-less and non-restrictive, public blockchains work best when maintaining large user bases where any member of the shared network can verify records, do proof-of-work, or engage in mining.",
+    },
+  ];
+  /***DATA FOR HEADER ****/
+  const dummyDataFoHeaderDeskhop= [
+    {
+
+      href:"#",
+      className: "",
+      content: "HOME"
+    },
+    {
+      href:"#contact",
+      className: "",
+      content: "SERVICES"
+    },
+    {
+      href:"#contact",
+      className: "text-[#E21A22]",
+      content: "BLOCKCHAIN"
+    },
+    {
+      href:"#contact",
+      className: "",
+      content: "BLOG"
+    },
+    {
+      href:"#contact",
+      className: "",
+      content: "JOBS"
+    },
+    {
+      href:"#contact",
+      className: "",
+      content: "ABOUT"
+    },
+    {
+      href:"#contact",
+      className: "",
+      content: "TESTIMONIALS"
+    },
+    {
+      href:"#contact",
+      className: "",
+      content: "CONTACT"
+    },
+  ]
+  export {DataForBlockChainDevelopService,dumyDataForApproachtoblockchain ,dummyDataFoHeaderDeskhop}

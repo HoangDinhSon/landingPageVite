@@ -1,29 +1,29 @@
 import {
-  Header,
-  CustomBlockchain,
-  BlockChainDevelopService,
-  ProjectDelivery,
-  TechnologyStackWeUSe,
-  Approachestoblockchain,
-  OurBlockchainDevelopmentProcess,
-  WhyHireVinova,
-  Footer,
-} from "./components";
+    Header,
+    CustomBlockchain,
+    BlockChainDevelopService,
+    ProjectDelivery,
+    TechnologyStackWeUSe,
+    Approachestoblockchain,
+    OurBlockchainDevelopmentProcess,
+    WhyHireVinova,
+    Footer,
+} from './components';
 
 function App() {
-  return (
-    <div className="">
-      <Header />
-      <CustomBlockchain />
-      <BlockChainDevelopService />
-      <ProjectDelivery />
-      <TechnologyStackWeUSe />
-      <Approachestoblockchain />
-      <OurBlockchainDevelopmentProcess/>
-      <WhyHireVinova/>
-      <Footer/>
-    </div>
-  );
+    return (
+        <>
+            <Header />
+            <CustomBlockchain />
+            <BlockChainDevelopService />
+            <ProjectDelivery />
+            <TechnologyStackWeUSe />
+            <Approachestoblockchain />
+            <OurBlockchainDevelopmentProcess />
+            <WhyHireVinova />
+            <Footer />
+        </>
+    );
 }
 
 export default App;
